@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    min-width: 290px;
+    background-color: white;
+    color: black;
+    border-radius: 50px 0 0 50px;
+    justify-content: space-between;
+    transition: 1s;
+}
+.box:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}

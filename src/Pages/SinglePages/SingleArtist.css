@@ -1,0 +1,16 @@
+.singleArtistCard:hover {
+    transform: scale(1.2);
+    z-index: 9;
+}
+
+.singleArtistCard {
+    transition: transform, 1s;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

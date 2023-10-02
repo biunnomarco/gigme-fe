@@ -1,0 +1,12 @@
+.blueBg {
+   background-color: hsl(218, 81%, 65%);
+   color: white ; 
+}
+.lightBlueBg {
+    background-color: hsl(218, 81%, 85%); 
+}
+
+.text-darkblue {
+    color: #1c4365;
+  }
+  
